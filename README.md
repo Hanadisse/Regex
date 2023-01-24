@@ -1,6 +1,6 @@
 # Title (replace with your title)
 
-A REGEX also known as regular expression is a string that are texts to create patterns that help match, locate, and manage texts. There are  ways to use REGEX and it does contain many key characters by using Javascript.
+A REGEX also known as regular expression is a string that are texts to create patterns that help match, locate, and manage texts. There are  ways to use REGEX and it does contain many Special key characters by using Javascript.
 
 ## Summary
 
