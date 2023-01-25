@@ -29,7 +29,7 @@ The regex that i will be explaining in this tutorial is a Match emails. this wil
 Anchors used in this regex expression for email are "^", This symbol shows that this is the behinning of the string and the dollar sign "$" is the end of the string.
 
 ### Quantifiers
-The quantif
+A quantifier for this regex includes {2,6}, which will allow a match range of 2-6 characters for the character set of [a-z\.].
 
 ### OR Operator
 
