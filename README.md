@@ -13,15 +13,11 @@ The regex that i will be explaining in this tutorial is a Match emails. this wil
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+
 
 ## Regex Components
 
@@ -29,13 +25,12 @@ The regex that i will be explaining in this tutorial is a Match emails. this wil
 Anchors used in this regex expression for email are "^", This symbol shows that this is the behinning of the string and the dollar sign "$" is the end of the string.
 
 ### Quantifiers
-A quantifier for this regex includes {2,6}, which will allow a match range of 2-6 characters for the character set of [a-z\.].
+Quantifier for this REGEX has the + operator, which connects the user's email address, email service, and .com, is included in this regex. The quantifier {2,6} is another one for this regex. It will allow for a match range of 2 to 6 characters for the [a-z\.] character set.
 
-### OR Operator
 
 ### Character Classes
+Character calsses are specific notation used to denote matches between symbols in a particular group is called a character class. [a-z] A single case-sensitive character between a and z. This expression uses the character class \d, which matches a single character that is a digit from 0 to 9. It will only match a single number, like "6", but it won't match "66".
 
-### Flags
 
 ### Grouping and Capturing
 
@@ -43,11 +38,7 @@ A quantifier for this regex includes {2,6}, which will allow a match range of 2-
 
 ### Greedy and Lazy Match
 
-### Boundaries
 
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 
