@@ -1,6 +1,6 @@
 # Title (replace with your title)
 
-A REGEX also known as regular expression is a string that are texts to create patterns that help match, locate, and manage texts. There are ways to use REGEX and it does contain many Special patterns without needing Javascript, Python, and etc.
+This tutorial will show you how to use regex to match emails with expression. This can be useful when validating emails with applications or technologies.
 
 ## Summary
 
@@ -34,13 +34,19 @@ Character calsses are specific notation used to denote matches between symbols i
 
 ### Grouping and Capturing
 
+The expression that captures group #1 is ([a-z0-9_.-]+), which corresponds to the user's email address. ([da-z.-]+) is the second capturing group, and it will match the email service. The third and final capture group is ([a-z.]2,6] with the goal of capturing the.com.
+
 ### Bracket Expressions
+The character sets [a-z0-9_\.-] for backed expressos for email validation are case-sensitive and match any letter a-z. Additionally, it finds matches for the characters "_" , "-" , and "."; [\da-z\.-]], which corresponds to any single digit from 0 to 9, any character from a to z (case sensitive), and the characters "." and "-".; [ [a-z] matches any a-z (case sensitive) character and the character ".".
 
 ### Greedy and Lazy Match
-
+Greedy matches are included in this regex. It will match as many times as possible, giving back as necessary, as it includes the + Quantifier. Another one is when you use {} when the matching `{2,6} for the final capture group, this regex also makes use of a greedy quantifier with the value "."
 
 
 ## Author
+Hanad Isse 
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
-# Regex
+[I used Nicole Wallace as a resource](https://github.com/nicolewallace09)
+
+
+
