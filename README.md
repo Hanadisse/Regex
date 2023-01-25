@@ -1,10 +1,13 @@
 # Title (replace with your title)
 
-A REGEX also known as regular expression is a string that are texts to create patterns that help match, locate, and manage texts. There are  ways to use REGEX and it does contain many Special key characters without needing Javascript, Python, and etc.
+A REGEX also known as regular expression is a string that are texts to create patterns that help match, locate, and manage texts. There are ways to use REGEX and it does contain many Special patterns without needing Javascript, Python, and etc.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The regex that i will be explaining in this tutorial is a Match emails. this will break this regex into indidviual components and how it maches a email. 
+
+
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Table of Contents
 
@@ -23,8 +26,10 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+Anchors used in this regex expression for email are "^", This symbol shows that this is the behinning of the string and the dollar sign "$" is the end of the string.
 
 ### Quantifiers
+The quantif
 
 ### OR Operator
 
